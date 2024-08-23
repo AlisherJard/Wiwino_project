@@ -37,5 +37,3 @@ with open(csv_file_path, mode='w', newline='') as file:
     
     # Write the data rows
     writer.writerows(results)
-
-print(f"Data has been written to {csv_file_path}")
