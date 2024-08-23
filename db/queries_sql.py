@@ -1,10 +1,6 @@
->sqlite3 c:/sqlite/chinook.db
+sqlite3 vivino.db
 sqlite> .headers on
 sqlite> .mode csv
-sqlite> .output data.csv
-sqlite> SELECT customerid,
-   ...>        firstname,
-   ...>        lastname,
-   ...>        company
-   ...>   FROM customers;
-sqlite> .quit
+sqlite> .output /Users/alexjones/Desktop/Wiwino_project/db/file.csv
+sqlite> SELECT * FROM grapes;
+sqlite> .output stdout
