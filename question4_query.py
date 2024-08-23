@@ -29,7 +29,6 @@ results = cursor.fetchall()
 
 csv_file_path = 'question4.csv'
 
-# Write results to the CSV file
 with open(csv_file_path, mode='w', newline='') as file:
     writer = csv.writer(file)
     
