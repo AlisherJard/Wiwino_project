@@ -17,7 +17,8 @@ SELECT
     country_name,
     SUM(ratings_count) AS total_ratings_count,
     SUM(sum_average) AS total_sum_average,
-    ROUND(SUM(sum_average) / SUM(ratings_count),2) AS weighted_average_rating
+    ROUND(SUM(sum_average) / SUM(ratings_count),2) AS weighted_average_rating,
+    COUNT(wine_name) AS wines_per_country
 FROM
     first_table
 GROUP BY
