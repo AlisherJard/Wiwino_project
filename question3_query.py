@@ -6,20 +6,17 @@ cursor = conn.cursor()
 
 cursor.execute("""
     SELECT
-        wineries.name,ratings_average, vintages.ratings_count
+        wineries.name,
+        AVG(vintages.ratings_average) AS avg_ratings_average,
+        SUM(vintages.ratings_count) AS total_ratings_count
     FROM
         vintages
     JOIN
         wineries ON vintages.wine_id = wineries.id
-    WHERE
-        vintages.ratings_average               
-    GROUP BY 
+    GROUP BY
         wineries.name
-    
     ORDER BY
-        ratings_average DESC, ratings_count DESC
-    
-;
+        avg_ratings_average DESC, total_ratings_count DESC;
 """)
 rows = cursor.fetchall()
 
