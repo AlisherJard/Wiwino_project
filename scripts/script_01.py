@@ -16,6 +16,7 @@ cursor.execute("""
                v.ratings_average AS vintage_ratings_average,
                v.ratings_count AS vintage_rating_count,
                (v.price_euros/v.bottle_volume_ml)*1000 AS liter_price_euros,
+               -- A case statement to see if a vintage wine is in a top list ranking
                CASE WHEN vtr.vintage_id IS NOT NULL THEN TRUE
                     ELSE FALSE 
                END AS in_top_list,
