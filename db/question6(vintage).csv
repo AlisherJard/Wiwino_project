@@ -1,17 +1,17 @@
-country_name,average_rating
-"Grèce",4.6
-France,4.5565
-"États-Unis",4.5516
-Australie,4.53
-Italie,4.5228
-Allemagne,4.5222
-Espagne,4.5194
-Moldavie,4.5167
-Portugal,4.5148
-Roumanie,4.5
-"Afrique du Sud",4.5
-Argentine,4.4815
-Chili,4.4783
-Hongrie,4.44
-Suisse,4.4
-Croatie,4.4
+country_name,average_rating,avg_ratings_count,wines_per_country
+"Grèce",4.6,62.0,1
+France,4.5565,830.0,485
+"États-Unis",4.5516,1121.0,91
+Australie,4.53,372.0,10
+Italie,4.5228,643.0,724
+Allemagne,4.5222,87.0,9
+Espagne,4.5194,497.0,98
+Moldavie,4.5167,695.0,6
+Portugal,4.5148,203.0,27
+Roumanie,4.5,31.0,1
+"Afrique du Sud",4.5,214.0,26
+Argentine,4.4815,627.0,27
+Chili,4.4783,612.0,23
+Hongrie,4.44,298.0,10
+Suisse,4.4,162.0,1
+Croatie,4.4,234.0,1

@@ -1,7 +1,8 @@
 SELECT
     countries.name AS country_name,
-    ROUND(SUM(vintages.ratings_average)/COUNT(countries.name), 4) AS average_rating
-
+    ROUND(SUM(vintages.ratings_average)/COUNT(countries.name), 4) AS average_rating,
+    ROUND(AVG(vintages.ratings_count),0) AS avg_ratings_count,
+    COUNT(vintages.name) AS wines_per_country
 FROM
     vintages
 
