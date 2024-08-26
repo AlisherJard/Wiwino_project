@@ -19,10 +19,10 @@ cursor.execute("""
     ORDER BY countries_count DESC
 """)
 
-# Create a list of lists, data, where the first list contains the column's names.
+# Create a list of lists, data_01, where the first list contains the column's names.
 data_01 = [[item[0] for item in cursor.description]]
 
-# Add the result of the query to the data list row by row.
+# Add the result of the query to the data_01 list row by row.
 for item in cursor.fetchall():
     data_01.append(list(item))
 
@@ -51,10 +51,10 @@ cursor.execute("""
     ORDER BY ratings_average DESC, ratings_count DESC;
 """)
 
-# Create a list of lists, data, where the first list contains the column's names.
+# Create a list of lists, data_02, where the first list contains the column's names.
 data_02 = [[item[0] for item in cursor.description]]
 
-# Add the result of the query to the data list row by row.
+# Add the result of the query to the data_02 list row by row.
 for item in cursor.fetchall():
     data_02.append(list(item))
 
