@@ -17,7 +17,6 @@ cursor.execute("""
         ON m.grape_id = g.id
     GROUP BY g.name
     ORDER BY countries_count DESC
-    LIMIT 3
 """)
 
 # Create a list of lists, data, where the first list contains the column's names.
@@ -28,7 +27,7 @@ for item in cursor.fetchall():
     data_01.append(list(item))
 
 # Create the csv file.
-with open('CSVs/top3_grapes.csv', 'w', newline='', encoding='utf-8') as file:
+with open('CSVs/top_grapes.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerows(data_01)
 
