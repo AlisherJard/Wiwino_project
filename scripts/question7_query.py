@@ -32,6 +32,6 @@ for item in cursor.fetchall():
     data.append(list(item))
 
 # Create the csv file.
-with open('CSVs/query_07.csv', 'w', newline='', encoding='utf-8') as file:
+with open('CSVs/question7.csv', 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerows(data)
