@@ -1,24 +1,29 @@
+WITH first_table AS (
 SELECT
-    countries.name AS country_name,
-    ROUND(SUM(vintages.ratings_average)/COUNT(countries.name), 4) AS average_rating,
-    ROUND(AVG(vintages.ratings_count),0) AS avg_ratings_count,
-    COUNT(vintages.name) AS wines_per_country
+        vintages.name AS wine_name,
+        countries.name AS country_name,
+        vintages.ratings_average,
+        vintages.ratings_count,
+        (vintages.ratings_average * vintages.ratings_count) AS sum_average
 FROM
     vintages
-
 JOIN
     wines ON vintages.wine_id = wines.id
-
 JOIN
     regions ON wines.region_id = regions.id
-
 JOIN
     countries ON regions.country_code = countries.code
+)
 
-WHERE vintages.ratings_average > 0
+SELECT
+    country_name,
+    SUM(ratings_count) AS total_ratings_count,
+    ROUND(SUM(sum_average),2) AS total_sum_average,
+    ROUND(SUM(sum_average) / SUM(ratings_count),2) AS weighted_average_rating,
+    COUNT(wine_name) AS wines_per_country
 
+FROM
+    first_table
 GROUP BY
-    countries.name
-
-ORDER BY
-    average_rating DESC;
+    country_name
+ORDER BY weighted_average_rating DESC;
