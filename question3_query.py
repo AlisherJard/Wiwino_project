@@ -16,13 +16,16 @@ cursor.execute("""
     GROUP BY
         wineries.name
     ORDER BY
-        avg_ratings_average DESC, total_ratings_count DESC;
+        avg_ratings_average DESC, total_ratings_count DESC
+
+    LIMIT 20     
+               ;
 """)
 rows = cursor.fetchall()
 
 column_names = [description[0] for description in cursor.description]
 
-with open('question3.csv', 'w', newline='', encoding='utf-8') as csvfile:
+with open('question31.csv', 'w', newline='', encoding='utf-8') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(column_names)
     csvwriter.writerows(rows)

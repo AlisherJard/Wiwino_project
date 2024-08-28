@@ -2,14 +2,14 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-df = pd.read_csv('question3.csv')
+df = pd.read_csv('csvforchart.csv')
 
 def adjust_size(size_series, min_size, max_size):
     min_val = size_series.min()
     max_val = size_series.max()
     return min_size + (size_series - min_val) / (max_val - min_val) * (max_size - min_size)
 
-df['adjusted_size'] = adjust_size(df['avg_ratings_average'], 1, 10)
+df['adjusted_size'] = adjust_size(df['avg_ratings_average'], 70, 100)
 
 fig = px.scatter(
     df,
@@ -26,7 +26,7 @@ fig = px.scatter(
 
 fig.update_layout(
     xaxis_title='Winery',
-    yaxis_title='Total Awards',
+    yaxis_title='Rating Count',
     xaxis_tickangle=-45,
     showlegend=True
 )
