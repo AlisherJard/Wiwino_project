@@ -44,9 +44,13 @@ cursor.execute("""
              WHEN w.name LIKE '%Chardonnay%' THEN 'Chardonnay'
              END AS grape_name,
         w.ratings_average,
-        w.ratings_count
+        w.ratings_count,
+        r.name AS region,
+        c.name AS country
     FROM wines AS w
     INNER JOIN vintages AS v ON w.id = v.wine_id
+    LEFT JOIN regions AS r ON w.region_id = r.id
+    LEFT JOIN countries AS c ON r.country_code = c.code
     WHERE w.name LIKE '%Cabernet Sauvignon%'
         OR w.name LIKE '%Merlot%'
         OR w.name LIKE '%Chardonnay%'
