@@ -1,4 +1,4 @@
-# 🏠🏢 Wiwino project
+# 🍷 Wiwino project
 
 ## 📜 Description
 
