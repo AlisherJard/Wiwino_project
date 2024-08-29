@@ -1,5 +1,5 @@
 # 🍷 Wiwino project
-
+![Wiwino Project Wine Bottle](Image.webp)
 ## 📜 Description
 
 This project focuses on conducting a comprehensive market analysis for Wiwino, a company operating in the wine industry. 
