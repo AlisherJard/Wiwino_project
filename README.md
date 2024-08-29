@@ -1,5 +1,5 @@
 # 🍷 Wiwino project
-<img src="Image.webp" alt="Wiwino Project Wine Bottle" width="500" height="520"/>
+<img src="Image.webp" alt="Wiwino Project Wine Bottle" width="500" height="450"/>
 
 ## 📜 Description
 
