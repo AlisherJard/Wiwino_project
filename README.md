@@ -64,7 +64,8 @@ Mathieu Lecouvet
 
 Rıdvan Gök
 
-Christian Valery NGuembou
+Christian Valéry Nguembou Tagne
+
 
 ## 📅 Timeline
 
