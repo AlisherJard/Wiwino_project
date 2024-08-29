@@ -70,14 +70,11 @@ Christian Valery NGuembou
 
 - `Day 1`: Data Exploration
 
-- `Day 2`: Development of queries
+- `Day 2`: Query Development
 
-- `Day 3`: Creating of vizualizations
+- `Day 3`: Visualization Creation
 
-- `Day 4`: Final Touches
-
-
-  
+- `Day 4`: Final Refinements
 
 
 
