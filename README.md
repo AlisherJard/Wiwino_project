@@ -10,13 +10,9 @@ and improve overall business operations.
 ## 🗄 Libraries Used 
 
 ![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3A8EBA?style=for-the-badge&logo=plotly&logoColor=white)
-
 ![Seaborn](https://img.shields.io/badge/Seaborn-3A8EBA?style=for-the-badge&logo=plotly&logoColor=white)
-
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
 ![Plotly](https://img.shields.io/badge/Plotly-3A8EBA?style=for-the-badge&logo=plotly&logoColor=white)
 
 
