@@ -27,7 +27,7 @@ and improve overall business operations.
 	•	saS
 	•	FDSFSF
 
-## 📝 Aim
+## 📝 Goals
 
 Wiwino aims to gain a better understanding of the wine market by analyzing data they have collected over the years. 
 The analysis will focus on key areas such as identifying top wines, prioritizing countries for marketing, 
