@@ -50,7 +50,7 @@ The market analysis must include answers to the following questions from the per
 
 Alisher Jardemaliyev 
 
-Mathieu Lecouvert 
+Mathieu Lecouvet 
 
 Ridvan
 
