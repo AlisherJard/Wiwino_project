@@ -14,7 +14,7 @@ and improve overall business operations.
 ![Seaborn](https://img.shields.io/badge/Seaborn-3A8EBA?style=for-the-badge&logo=plotly&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3A8EBA?style=for-the-badge&logo=plotly&logoColor=white)
-
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ## 📦 Learning Objectives
  
