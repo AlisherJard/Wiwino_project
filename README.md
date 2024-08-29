@@ -7,6 +7,19 @@ We will analyze the data collected over the years to gain insights into market t
 The findings from this analysis will help Wiwino make informed decisions to boost sales, optimize marketing strategies, 
 and improve overall business operations.
 
+## 🗄 Libraries Used 
+
+![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3A8EBA?style=for-the-badge&logo=plotly&logoColor=white)
+
+![Seaborn](https://img.shields.io/badge/Seaborn-3A8EBA?style=for-the-badge&logo=plotly&logoColor=white)
+
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+![Plotly](https://img.shields.io/badge/Plotly-3A8EBA?style=for-the-badge&logo=plotly&logoColor=white)
+
+
 ## 📦 Learning Objectives
  
 •	Develop teamwork skills through the use of ticketing systems and Trello. 
@@ -24,8 +37,10 @@ and improve overall business operations.
 
 ## 🛠️ Data Structure
 
-	•	saS
-	•	FDSFSF
+	•	/CSVs/ have all CVs created by SQL queries
+	•	/Queries_py_sql/ has all queries
+    •	/db/ has the main vivino database
+    
 
 ## 📝 Goals
 
