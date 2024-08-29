@@ -62,7 +62,7 @@ Alisher Jardemaliyev
 
 Mathieu Lecouvet 
 
-Ridvan
+Rıdvan Gök
 
 Christian Valery NGuembou
 
