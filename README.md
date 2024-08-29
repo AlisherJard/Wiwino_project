@@ -9,12 +9,17 @@ and improve overall business operations.
 
 ## 📦 Learning Objectives
  
-•	Develop teamwork skills through the use of ticketing systems and Trello.
-	•	Enhance the ability to read and interpret SQL database diagrams.
-	•	Gain proficiency in querying a SQL database.
-	•	Learn how to write efficient SQL queries.
-	•	Create visual representations from aggregated insights derived from SQL queries.
-	•	Present a market analysis with clear numbers and visual aids.
+•	Develop teamwork skills through the use of ticketing systems and Trello. 
+
+•	Enhance the ability to read and interpret SQL database diagrams.
+
+•	Gain proficiency in querying a SQL database.
+
+•	Learn how to write efficient SQL queries.
+
+•	Create visual representations from aggregated insights derived from SQL queries.
+
+•	Present a market analysis with clear numbers and visual aids.
 
 
 ## 🛠️ Project Structure
