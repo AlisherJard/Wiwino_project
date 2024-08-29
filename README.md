@@ -44,9 +44,12 @@ The market analysis must include answers to the following questions from the per
 ## 👥 Contributors
 
 Alisher Jardemaliyev 
+
 Mathieu Lecouvert 
+
 Ridvan
 
+Christian Valery
 
 ## 📅 Timeline
 
