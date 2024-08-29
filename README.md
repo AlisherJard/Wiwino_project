@@ -54,6 +54,7 @@ The market analysis must include answers to the following questions from the per
 	6.	Country Leaderboard: Create a visual showing the average wine rating for each country and vintage.
 	7.	Cabernet Sauvignon Recommendations: Recommend the top 5 wines for a VIP client who likes Cabernet Sauvignon.
 	8.	Additional Insights: Provide any other useful insights found in the data.
+    9.  Visualize wine prices based on acidity, tannin, sweetness, and intensity.
 
 
 ## 👥 Contributors
