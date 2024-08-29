@@ -1,5 +1,6 @@
 # 🍷 Wiwino project
-<img src="Image.webp" alt="Wiwino Project Wine Bottle" width="500" height="500"/>
+<img src="Image.webp" alt="Wiwino Project Wine Bottle" width="700" height="500"/>
+
 ## 📜 Description
 
 This project focuses on conducting a comprehensive market analysis for Wiwino, a company operating in the wine industry. 
