@@ -37,18 +37,20 @@ with open('CSVs/top_grapes.csv', 'w', newline='', encoding='utf-8') as file:
 # whose are the top three grapes used in the most countries
 cursor.execute("""
     SELECT
-        name AS wine_name,
-        CASE WHEN name LIKE '%Cabernet Sauvignon%' THEN 'Cabernet Sauvignon'
-             WHEN name LIKE '%Merlot%' THEN 'Merlot'
-             WHEN name LIKE '%Chardonnay%' THEN 'Chardonnay'
+        w.name AS wine_name,
+        v.year,
+        CASE WHEN w.name LIKE '%Cabernet Sauvignon%' THEN 'Cabernet Sauvignon'
+             WHEN w.name LIKE '%Merlot%' THEN 'Merlot'
+             WHEN w.name LIKE '%Chardonnay%' THEN 'Chardonnay'
              END AS grape_name,
-             ratings_average,
-             ratings_count
-    FROM wines
-    WHERE name LIKE '%Cabernet Sauvignon%'
-        OR name LIKE '%Merlot%'
-        OR name LIKE '%Chardonnay%'
-    ORDER BY ratings_average DESC, ratings_count DESC;
+        w.ratings_average,
+        w.ratings_count
+    FROM wines AS w
+    INNER JOIN vintages AS v ON w.id = v.wine_id
+    WHERE w.name LIKE '%Cabernet Sauvignon%'
+        OR w.name LIKE '%Merlot%'
+        OR w.name LIKE '%Chardonnay%'
+    ORDER BY w.ratings_average DESC, w.ratings_count DESC;
 """)
 
 # Create a list of lists, data_02, where the first list contains the column's names.
