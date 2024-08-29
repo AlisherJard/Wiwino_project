@@ -1,10 +1,10 @@
 import sqlite3
 import csv
 
-connection = sqlite3.connect('vivino.db')
+connection = sqlite3.connect('/home/siegfried2021/Bureau/BeCode_AI/Projets/Wiwino_project/vivino.db')
 cursor = connection.cursor()
 
-query_5 = """
+query_4 = """
     WITH selection AS (
         SELECT wines.name AS wine_name,
         'Subtly aphrodisiac flavour' AS group_name, wines.region_id AS region
@@ -24,10 +24,10 @@ query_5 = """
         ORDER BY countries.name;
 """
 
-cursor.execute(query_5)
+cursor.execute(query_4)
 results = cursor.fetchall()
 
-csv_file_path = 'question4.csv'
+csv_file_path = 'CSV files/question4.csv'
 
 with open(csv_file_path, mode='w', newline='') as file:
     writer = csv.writer(file)
