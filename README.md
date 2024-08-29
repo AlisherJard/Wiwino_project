@@ -22,7 +22,7 @@ and improve overall business operations.
 •	Present a market analysis with clear numbers and visual aids.
 
 
-## 🛠️ Project Structure
+## 🛠️ Data Structure
 
 	•	saS
 	•	FDSFSF
