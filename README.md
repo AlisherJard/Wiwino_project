@@ -18,7 +18,7 @@ and improve overall business operations.
 
 ## 📦 Learning Objectives
  
-•	Develop teamwork skills through the use of ticketing systems and Trello. 
+•	Develop teamwork skills through the use of ticketing systems and Trello. [Click here](https://trello.com/b/4KkrZqmc/wiwino-project-step-1-db-queries-and-csv-output-files)
 
 •	Enhance the ability to read and interpret SQL database diagrams.
 
